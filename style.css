@@ -39,6 +39,16 @@ blockquote .footer:after,
   visibility:hidden;
 }
 
+a,
+a:visited {
+  color:#63ba46;
+}
+
+a:hover {
+  color:#16a37a;
+  text-decoration:none;
+}
+
 h1 {
   font-size:30px;
   font-weight:500;
@@ -320,16 +330,25 @@ h2 {
 .el-btm-arrows-1 {
   bottom: -51px;
   right: 78px;
+  z-index:-1;
 }
 
 .el-btm-arrows-2 {
   bottom: -57px;
   right: -57px;
+  z-index:-1;
 }
 
 .el-btm-arrows-3 {
   bottom: 0;
   left: -12px;
+  z-index:-1;
+}
+
+.el-btm-arrows-4 {
+  bottom: 0;
+  left: 3px;
+  z-index:-1;
 }
 
 .el-eye-1 {
@@ -411,8 +430,6 @@ hr {
   background:#c6c6c6;
   margin:51px 0 37px 0;
 }
-
-
 
 .form-item {
   position:relative;
@@ -680,11 +697,6 @@ label span {
 
 .footer-contacts td {
   padding:0 18px 0 0;
-}
-
-.footer a,
-.footer a:visited {
-  color:#63ba46;
 }
 
 .footer-top {
@@ -1170,3 +1182,138 @@ to {
   margin-top:0;
 	}
 }
+
+.transfers-header {
+  margin:-40px 0 0 0;
+  padding:40px 0 0 0;
+  background:#effbff url(images/transfers-repeat-bg.png) 0 bottom repeat-x;
+}
+
+.transfers-header .transfers-header-cont {
+  background:url(images/transfers-header-bg.png) center bottom no-repeat;
+  min-height:388px;
+}
+
+.transfers-welcome {
+  margin:0 240px;
+  background:#fff;
+  behavior:url(PIE.htc);
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  border:2px solid #00a0e3;
+  font-size:18px;
+  line-height:26px;
+  color:#00a0e3;
+  font-weight:500;
+  padding:33px 42px 29px 42px;
+}
+
+.transfers-welcome p {
+  margin:0 0 8px 0;
+}
+
+.transfers-data-wrapper {
+  margin:0 0 48px 60px;
+}
+
+.transfers-data-1 {
+  float:left;
+  width:450px;
+  margin:0 50px 0 0;
+}
+
+.transfers-data-2 {
+  overflow:hidden;
+}
+
+.transfers-data h3 {
+  font-size:26px;
+  font-weight:500;
+  line-height:30px;
+  color:#00a0e3;
+  margin:30px 0 35px 0;
+}
+
+.td-item {
+  font-size:18px;
+  line-height:24px;
+}
+
+.td-item .name {
+  font-weight: 300;
+  background: url(images/transfers-data-arrow.png) right 7px no-repeat;
+  margin: 0 7px 0 0;
+  width: 233px;
+  float: left;
+}
+
+.td-item .name span {
+  background:#fff;
+  padding:0 12px 0 0;
+}
+
+.td-item .val {
+  color:#00a0e3;
+  font-weight:400;
+  overflow:hidden;
+}
+
+.transfers-data .sep {
+  height:24px;
+}
+
+.print-link-wrapper {
+  text-align:center;
+}
+
+.print-link,
+.print-link:visited {
+  color:#63ba46;
+  font-size:18px;
+  line-height:26px;
+  padding:0 0 0 40px;
+  background:url(images/ico-print.png) 0 0 no-repeat;
+  display:inline-block;
+}
+
+.print-link:hover {
+  background-position:0 -100px;
+}
+
+hr.alt {
+  background-color:#8acb74;
+  margin: 32px 0 43px 0;
+}
+
+.flight-warning {
+  font-size:14px;
+  line-height:18px;
+  padding:0 80px 82px 80px;
+  margin-bottom:-55px;
+}
+
+.flight-warning h2 {
+  color:#63ba46;
+  font-size:30px;
+  line-height:34px;
+  margin:0 0 24px 0;
+  text-transform:uppercase;
+  text-align:center;
+  letter-spacing:.1em;
+}
+
+.flight-warning h3 {
+  color:#00a0e3;
+  font-size:26px;
+  line-height:30px;
+  margin:24px 0 9px 0;
+  text-align:center;
+}
+
+.flight-warning .subscr {
+  font-style:italic;
+  text-align:center;
+  margin:30px 0 0 0;
+}
+

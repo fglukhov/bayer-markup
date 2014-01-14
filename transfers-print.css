@@ -1,0 +1,86 @@
+﻿html,body {
+  background:#fff;
+  font-size:16px;
+  line-height:24px;
+  color:#333333;
+  height: 100%;
+  min-width:1000px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.header,
+.footer,
+.page-block div,
+.transfers-header,
+.flight-warning,
+hr {
+  display:none;
+}
+
+.transfers-data-wrapper {
+  display:block !important;
+}
+
+.transfers-data-wrapper span {
+  display:inline !important;
+}
+
+.transfers-data-wrapper div {
+  display:block !important;
+}
+
+.transfers-data-wrapper h3 {
+  display:block !important;
+}
+
+.transfers-data-wrapper {
+  margin:0 0 48px 60px;
+}
+
+.transfers-data-1 {
+  float:left;
+  width:450px;
+  margin:0 50px 0 0;
+}
+
+.transfers-data-2 {
+  overflow:hidden;
+}
+
+.transfers-data h3 {
+  font-size:26px;
+  font-weight:500;
+  line-height:30px;
+  color:#333333;
+  margin:30px 0 35px 0;
+}
+
+.td-item {
+  font-size:18px;
+  line-height:24px;
+}
+
+.td-item .name {
+  font-weight: 300;
+  background: url(images/transfers-data-arrow.png) right 7px no-repeat;
+  margin: 0 7px 0 0;
+  width: 233px;
+  float: left;
+}
+
+.td-item .name span {
+  background:#fff;
+  padding:0 12px 0 0;
+}
+
+.td-item .val {
+  color:#333333;
+  font-weight:400;
+  overflow:hidden;
+}
+
+.transfers-data .sep {
+  height:24px;
+}
+
+
