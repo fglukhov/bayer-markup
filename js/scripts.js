@@ -54,6 +54,41 @@ $(document).ready(function () {
   $(".voting-hint .close").click(function() {
     $(".voting-hint").fadeOut(150);
   });
+  
+  $(".welcome-steps .w-step-3 .pic").bind("mouseenter",function() {
+    var lightsCont = $(".lamp-lights");
+    var lights = lightsCont.find("img");
+    lights.hide();
+    var lt1 = setTimeout(function() {
+      lights.eq(0).fadeTo(250,1);
+    },0);
+    var lt2 = setTimeout(function() {
+      lights.eq(1).fadeTo(250,1);
+    },250);
+    var lt3 = setTimeout(function() {
+      lights.eq(2).fadeTo(250,1);
+    },500);
+    var lt4 = setTimeout(function() {
+      lights.eq(3).fadeTo(250,1);
+    },750);
+    var lt5 = setTimeout(function() {
+      lights.eq(4).fadeTo(250,1);
+    },1000);
+    var lt6 = setTimeout(function() {
+      lights.eq(5).fadeTo(250,1);
+    },1250);
+    var lt7 = setTimeout(function() {
+      lights.eq(6).fadeTo(250,1);
+    },1500);
+  });
+  
+  
+  
+  
+  
+  
+  
+  
 
   $(".places-slider .pic-gallery-tmbs a").click(function() {
     $(this).parents(".slide").find(".pic-cont img").hide();

@@ -835,6 +835,10 @@ label span {
   top: 7px;
 }
 
+.welcome-steps .lamp-lights img {
+  display:none;
+}
+
 .welcome-innovations {
   padding:52px 0 0 0;
   margin:0 0 -48px 0;
@@ -883,4 +887,286 @@ label span {
   display:block;
   width:82px;
   margin:0 auto;
+}
+
+.rotate-cw-1 {
+	animation-name: cw1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 10s;
+  -webkit-animation-name: cw1;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 10s;
+  -moz-animation-name: cw1;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 10s;
+}	
+
+@-webkit-keyframes cw1 {
+from {
+	-webkit-transform: rotate(0deg);
+	}
+
+to {
+	-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes cw1 {
+from {
+	-moz-transform: rotate(0deg);
+	}
+
+to {
+	-moz-transform: rotate(360deg);
+	}
+}
+
+@keyframes cw1 {
+from {
+	transform: rotate(0deg);
+	}
+
+to {
+	transform: rotate(360deg);
+	}
+}
+
+.rotate-cw-2 {
+	animation-name: cw2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 15s;
+  -webkit-animation-name: cw2;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 15s;
+  -moz-animation-name: cw2;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 15s;
+}	
+
+@-webkit-keyframes cw2 {
+from {
+	-webkit-transform: rotate(0deg);
+	}
+
+to {
+	-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes cw2 {
+from {
+	-moz-transform: rotate(0deg);
+	}
+
+to {
+	-moz-transform: rotate(360deg);
+	}
+}
+
+@keyframes cw2 {
+from {
+	transform: rotate(0deg);
+	}
+
+to {
+	transform: rotate(360deg);
+	}
+}
+
+.rotate-ccw-1 {
+	animation-name: ccw1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 10s;
+  -webkit-animation-name: ccw1;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 10s;
+  -moz-animation-name: ccw1;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 10s;
+}	
+
+@-webkit-keyframes ccw1 {
+from {
+	-webkit-transform: rotate(360deg);
+	}
+
+to {
+	-webkit-transform: rotate(0deg);
+	}
+}
+
+@-moz-keyframes ccw1 {
+from {
+	-moz-transform: rotate(360deg);
+	}
+
+to {
+	-moz-transform: rotate(0deg);
+	}
+}
+
+@keyframes ccw1 {
+from {
+	transform: rotate(360deg);
+	}
+
+to {
+	transform: rotate(0deg);
+	}
+}
+
+.rotate-ccw-2 {
+	animation-name: ccw2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 15s;
+  -webkit-animation-name: ccw2;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 15s;
+  -moz-animation-name: ccw2;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 15s;
+}	
+
+@-webkit-keyframes ccw2 {
+from {
+	-webkit-transform: rotate(360deg);
+	}
+
+to {
+	-webkit-transform: rotate(0deg);
+	}
+}
+
+@-moz-keyframes ccw2 {
+from {
+	-moz-transform: rotate(360deg);
+	}
+
+to {
+	-moz-transform: rotate(0deg);
+	}
+}
+
+@keyframes ccw2 {
+from {
+	transform: rotate(360deg);
+	}
+
+to {
+	transform: rotate(0deg);
+	}
+}
+
+.w-step-1 .pic:hover .welcome-step-gear {
+	animation-name: wsgear;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 15s;
+  -webkit-animation-name: wsgear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 15s;
+  -moz-animation-name: wsgear;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 15s;
+}
+@-webkit-keyframes wsgear {
+from {
+	-webkit-transform: rotate(360deg);
+	}
+
+to {
+	-webkit-transform: rotate(0deg);
+
+	}
+}
+@-moz-keyframes wsgear {
+from {
+	-moz-transform: rotate(360deg);
+	}
+
+to {
+	-moz-transform: rotate(0deg);
+
+	}
+}
+@keyframes wsgear {
+from {
+	transform: rotate(360deg);
+	}
+
+to {
+	transform: rotate(0deg);
+
+	}
+}
+
+.w-step-2 .pic:hover .welcome-step-heart {
+	animation-name: wsheart;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: .5s;
+  -webkit-animation-name: wsheart;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: .5s;
+  -moz-animation-name: wsheart;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: .5s;
+}
+
+@-webkit-keyframes wsheart {
+from {
+	width:51px;
+  margin-left:3px;
+  margin-top:3px;
+	}
+
+to {
+	width:57px;
+  margin-left:0;
+  margin-top:0;
+	}
+}
+
+@-moz-keyframes wsheart {
+from {
+	width:51px;
+  margin-left:3px;
+  margin-top:3px;
+	}
+
+to {
+	width:57px;
+  margin-left:0;
+  margin-top:0;
+	}
+}
+
+@keyframes wsheart {
+from {
+	width:51px;
+  margin-left:3px;
+  margin-top:3px;
+	}
+
+to {
+	width:57px;
+  margin-left:0;
+  margin-top:0;
+	}
 }
