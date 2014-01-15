@@ -17,7 +17,7 @@ $(document).ready(function () {
   if ($(".simple-slider").length) {
     $(".simple-slider").each(function() {
       $(this).simpleSlider({
-        width:530
+        width:659
       });
     });
   }
@@ -207,13 +207,13 @@ $(document).ready(function () {
 
   // Simple slider
   
-  if ($(".slider").length) {
-    $(".slider").each(function() {
-      $(this).simpleSlider({
-        width:530
-      });
-    });
-  }
+  // if ($(".slider").length) {
+    // $(".slider").each(function() {
+      // $(this).simpleSlider({
+        // width:530
+      // });
+    // });
+  // }
 
   $(".fancybox").fancybox({
     padding: 0,
@@ -477,6 +477,7 @@ function openPopup(pupId) {
       items.hide();
       items.eq(0).addClass("current").show();
       
+      slider.css("height",items.eq(0).find("img").height());
       items.eq(0).find("img").load(function() {
         slider.css("height",items.eq(0).find("img").height());
       });
