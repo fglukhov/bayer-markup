@@ -277,7 +277,7 @@ function makeup() {
     }
   });
 
-  $("input.button").each(function () {
+  $("input.form-submit").each(function () {
     if ($(this)[0].tagName == "INPUT" && !$(this).next("div.form-submit").length) {
       var divBtn = $("<div></div>");
       var submit = $(this);

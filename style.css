@@ -1489,7 +1489,7 @@ hr.alt {
 }
 
 .hosting-slider .lister .item {
-  background-image:url(../images/slider-dots.png);
+  background-image:url(images/slider-dots.png);
   background-repeat:no-repeat;
   background-position:0 0;
   width:27px;
@@ -2268,7 +2268,7 @@ h2.disabled {
   position:absolute;
   width:70px;
   height:70px;
-  background-image:url(../images/slider-arrows.png);
+  background-image:url(images/slider-arrows.png);
   background-position:0 -70px;
   background-repeat:no-repeat;
   cursor:pointer;
@@ -2284,7 +2284,7 @@ h2.disabled {
   position:absolute;
   width:70px;
   height:70px;
-  background-image:url(../images/slider-arrows.png);
+  background-image:url(images/slider-arrows.png);
   background-position:-70px -70px;
   background-repeat:no-repeat;
   cursor:pointer;
