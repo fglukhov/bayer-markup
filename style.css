@@ -2431,7 +2431,7 @@ h2.disabled {
 
 .voting-results .descr {
   overflow:hidden;
-  font-size:16px;
+  font-size:20px;
   line-height:24px;
   font-weight:500;
 }
@@ -2440,4 +2440,14 @@ h2.disabled {
   height:72px;
   vertical-align:middle;
   display:table-cell;
+}
+
+.body-alternate {
+  padding-top:4px;
+  padding-bottom:0;
+}
+
+.body-alternate .voting-item {
+  padding-bottom:0;
+  margin-bottom:-7px;
 }
