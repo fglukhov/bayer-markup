@@ -2403,3 +2403,41 @@ h2.disabled {
 .article-pic img {
   margin:0 0 17px 0;
 }
+
+.voting-results {
+  margin:-19px 0 0 0;
+}
+
+.voting-results .vr-item {
+  margin:0 0 18px 0;
+}
+
+.voting-results .num {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 500;
+  color: #63ba46;
+  width: 130px;
+  float: left;
+  margin: 0 10px 0 0;
+  background: url(images/vr-arrow.png) right 32px no-repeat;
+  letter-spacing:-.08em;
+}
+
+.voting-results .num span {
+  background:#fff;
+  padding:0 10px 0 0;
+}
+
+.voting-results .descr {
+  overflow:hidden;
+  font-size:16px;
+  line-height:24px;
+  font-weight:500;
+}
+
+.voting-results .descr .cont {
+  height:72px;
+  vertical-align:middle;
+  display:table-cell;
+}
