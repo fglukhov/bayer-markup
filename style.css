@@ -191,7 +191,7 @@ h2 {
 }
 
 .header {
-  background:#63ba46;
+  background:#5db62c url(images/header-bg.png) 0 0 repeat-x;
   color:#fff;
 }
 
