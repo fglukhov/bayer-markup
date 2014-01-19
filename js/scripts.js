@@ -27,6 +27,12 @@ $(document).ready(function () {
       $(this).parents(".form-item").addClass("disabled")
     }
   });
+  
+  $("input:radio").each(function() {
+    if ($(this).is(":disabled")) {
+      $(this).parents(".form-item").addClass("disabled")
+    }
+  });
 
   $(".voting-hint .close").click(function() {
     $(".voting-hint").fadeOut(150);
@@ -92,6 +98,10 @@ $(document).ready(function () {
 
   if ($("input:checkbox").length) {
     $("input:checkbox").iCheck()
+  }
+  
+  if ($("input:radio").length) {
+    $("input:radio").iCheck()
   }
 
   $(".slider").each(function() {
@@ -257,7 +267,12 @@ function makeup() {
 
   if ($(".login-cont").length) {
     $(".login-cont").css("height","auto");
-    $(".login-cont").css("height",$(".top-wrap").height() - $(".footer").height() - $(".header").outerHeight(true));
+    $(".login-cont").css("height",$(".top-wrap").height() - $(".footer").height() - $(".header").height());
+  } else if ($(".content .page-block").length == 1) {
+    $(".content .page-block").css("height","auto");
+    if ($(".content .page-block").height() < ($(".top-wrap").height() - $(".footer").height() - $(".header").outerHeight(true) - 95 - $(".content .page-block").innerHeight() + $(".content .page-block").height() - $(".content .page-block").outerHeight(true) + $(".content .page-block").outerHeight() - $(".content h1:first-child").outerHeight(true)) && !$(".innovations-form").length && !$(".welcome-steps").length) {
+      $(".content .page-block").css("height",$(".top-wrap").height() - $(".footer").height() - $(".header").outerHeight(true) - 95 - $(".content .page-block").innerHeight() + $(".content .page-block").height() - $(".content .page-block").outerHeight(true) + $(".content .page-block").outerHeight() - $(".content h1:first-child").outerHeight(true));
+    }
   }
 
   // $("blockquote .cont").each(function() {

@@ -249,6 +249,7 @@ h2 {
   padding:4px 10px 7px 10px;
   white-space:nowrap;
   border:2px solid transparent;
+  outline:none;
 }
 
 .main-menu li span {
@@ -268,6 +269,7 @@ h2 {
 
 .main-menu a:hover {
   border:2px solid #94e579;
+  outline:none;
 }
 
 .main-menu .voting a,
@@ -768,6 +770,10 @@ label.placeholder {
     margin-top:2px;
 }
 
+.iradio {
+  background-image:url(images/iradio.png);
+}
+
 .icheckbox {
     background-position: 0 0;
 }
@@ -783,17 +789,17 @@ label.placeholder {
     }
 
 .iradio {
-    background-position: -72px 0;
+    background-position: 0 0;
 }
     .iradio.checked {
-        background-position: -90px 0;
+        background-position: -22px 0;
     }
     .iradio.disabled {
-        background-position: -108px 0;
+        background-position: 0 -22px;
         cursor: default;
     }
     .iradio.checked.disabled {
-        background-position: -126px 0;
+        background-position: -22px -22px;
     }
 
 /* Retina support */
@@ -2071,7 +2077,8 @@ to {
   margin:0 0 37px 0;
 }
 
-.voting-form .icheckbox {
+.voting-form .icheckbox,
+.voting-form .iradio {
   position:absolute;
   left:0;
   top:1px;
@@ -2224,16 +2231,16 @@ h2.disabled {
 }
 
 .el-login-btm-arrows {
-  bottom:-20px;
+  bottom:-40px;
   left:50%;
   margin-left:-560px;
-  z-index:-1;
+  z-index:0;
 }
 
 .header-login {
   padding:0;
   height:250px;
-  background:#00a0e3;
+  background:#5db62c url(images/header-bg.png) 0 0 repeat-x;
 }
 
 .el-chart-4-2 {
