@@ -1742,12 +1742,13 @@ hr.alt {
 }
 
 .program-table {
-  font-size:15px;
-  line-height:18px;
+  font-size:13px;
+  line-height:16px;
 }
 
 .program-table .time {
   white-space:nowrap;
+  color:#63ba46;
 }
 
 .program-table td {
@@ -1763,7 +1764,7 @@ hr.alt {
 }
 
 .program-table .highlight td {
-  padding:29px 0 4px 0;
+  padding:16px 0 20px 0;
 }
 
 .program-table .ttl {
