@@ -1,4 +1,4 @@
-﻿$(window).resize(function() {
+$(window).resize(function() {
   $("body").css("width","");
   pupMakeup();
   makeup();
@@ -293,7 +293,7 @@ function makeup() {
   });
 
   $("input.form-submit").each(function () {
-    if ($(this)[0].tagName == "INPUT" && !$(this).next("div.form-submit").length) {
+    if ($(this)[0].tagName == "INPUT" && !$(this).parents("div").find("div.form-submit").length) {
       var divBtn = $("<div></div>");
       var submit = $(this);
       divBtn.attr("class",$(this).attr("class")).attr("id",$(this).attr("id")).html("<span>" + $(this).val() + "</span>");
@@ -312,11 +312,11 @@ function makeup() {
   });
   
   $(".button").each(function() {
-    $(this).html("<span class='btn-cont'><span class='b-l'><span class='b-r'>"+$(this).html()+"</span></span></span>");
+    //$(this).html("<span class='btn-cont'><span class='b-l'><span class='b-r'>"+$(this).html()+"</span></span></span>");
   });
 
   $("input:text, input:password, textarea").each(function() {
-    $(this).addClass("initial");
+	$(this).addClass("initial");
     
     if ($(this).prop("tagName") == "INPUT") {
       // if (!$(this).parents(".input-wrapper").length) $(this).wrap("<div class='input-wrapper'></div>");
@@ -333,7 +333,7 @@ function makeup() {
       });
     } else {
       $(this).focus(function() {
-        $(this).removeClass("initial");
+		$(this).removeClass("initial");
         $(this).parents(".form-item").find(".placeholder").hide();
       });
       $(this).blur(function() {
@@ -346,6 +346,7 @@ function makeup() {
       
     $(this).parents(".form-item").find(".placeholder").click(function() {
       $(this).focus();
+	  // alert(1);
     });
     
   });
