@@ -2477,8 +2477,8 @@ table.dress-code {
 }
 
 .body-alternate .main-col,
-.main-col-2 {à
-  width:780px;
+.main-col-2 {
+  /* width:780px; */
 }
 
 .main-col-2 {
@@ -2647,4 +2647,63 @@ table.dress-code {
 
 .photo-page iframe {
   margin:20px 0;
+}
+
+.tint {
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index:999;
+  background:url(images/popup-tint.png);
+}
+
+.popup {
+  position:absolute !important;
+  z-index:1000;
+  font-family:'Exo 2';
+  font-size:18px;
+  line-height:26px;
+  color:#00a0e3;
+  background:#fff;
+  position:relative;
+  behavior:url(PIE.htc);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  border:2px solid #6dbe52;
+}
+
+.popup .close {
+  position:absolute;
+  cursor:pointer;
+  right: 19px;
+  top: 18px;
+  width:16px;
+  height:17px;
+  background:url(images/popup-close.png) 0 0 no-repeat;
+}
+
+.popup h2 {
+  color:#63ba46;
+  font-size:24px;
+  line-height:26px;
+  margin:0 0 12px 0;
+}
+
+.popup p {
+  margin:0 0 10px 0;
+}
+
+.popup .close:hover {
+  background-position:0 -17px;
+}
+
+.thanks-popup {
+  width:570px;
+}
+
+.popup .popup-content {
+  padding:45px 49px 37px 49px;
 }

@@ -14,6 +14,8 @@ $(window).load(function() {
 
 $(document).ready(function () {
 
+  // ----------------------------------------------------------
+
   if ($(".simple-slider").length) {
     $(".simple-slider").each(function() {
       $(this).simpleSlider({
